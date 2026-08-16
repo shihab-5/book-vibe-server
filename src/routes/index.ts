@@ -1,5 +1,5 @@
-import books from "@/services/books";
-import categories from "@/services/categories";
+import books from "../services/books";
+import categories from "../services/categories";
 import { Router } from "express";
 
 
