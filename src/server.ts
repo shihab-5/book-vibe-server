@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import app from "./app";
 
-// Load environment variables FIRST before anything else
+// Load environment variables FIRST before anything else (Vercel deployment trigger)
 dotenv.config();
 
 const PORT = process.env.PORT || 5000;
