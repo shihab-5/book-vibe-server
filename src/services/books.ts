@@ -60,7 +60,7 @@ router.post("/", async (req: Request, res: Response) => {
       });
     }
 
-    // Create book
+    // Create book in the database
     const newBook = await prisma.book.create({
       data: {
         bookName,
